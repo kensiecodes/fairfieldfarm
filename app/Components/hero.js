@@ -1,21 +1,21 @@
 export default function Hero() {
   return (
-    <section className="bg-gray-100 text-gray-800">
-      <div className="container mx-auto flex flex-col items-center px-4 py-16 text-center md:py-32 md:px-10 lg:px-32 xl:max-w-3xl">
-        <h1 className="text-4xl font-bold leading-none sm:text-5xl">
-          Quisquam necessita vel
-          <span className="text-green-600">laborum doloribus</span>delectus
+    <section className="bg-gray-100 text-gray-800 bg-[url('/cows.jpg')] bg-cover">
+      <div className=" container flex flex-col items-start px-4 py-16 text-left md:py-32 md:px-10 lg:px-30 xl:max-w-3xl bg-slate-800/50  ">
+        <h1 className="text-4xl text-white font-bold leading-none sm:text-5xl [text-shadow:_0_2px_0_rgb(0_0_0_/_40%)] ">
+          Want farm fresh, community harvested, organic food?
+          <span className="text-babyblue">Look no further.</span>
         </h1>
-        <p className="px-8 mt-8 mb-12 text-lg">
-          Cupiditate minima voluptate temporibus quia? Architecto beatae esse ab
-          amet vero eaque explicabo!
+        <p className=" mt-8 mb-5 text-lg text-white [text-shadow:_0_1px_0_rgb(0_0_0_/_40%)]">
+          We're a historic farm dedicated to teaching, learning, and helping our
+          community thrive.
         </p>
-        <div className="flex flex-wrap justify-center">
-          <button className="px-8 py-3 m-2 text-lg font-semibold rounded bg-green-600 text-gray-50">
-            Get started
+        <div className="flex flex-wrap justify-end">
+          <button className="px-8 py-3 m-2 text-lg font-semibold rounded bg-babyblue text-white">
+            Our Calendar
           </button>
-          <button className="px-8 py-3 m-2 text-lg border rounded text-gray-900 border-gray-300">
-            Learn more
+          <button className="px-8 py-3 m-2 text-lg border text-white rounded bg-darkblue text-gray-900 border-babyblue">
+            Shop Online
           </button>
         </div>
       </div>

@@ -9,7 +9,7 @@ export default function Header() {
           className="flex items-center p-2"
         >
           <img src="/iconsmall.png" />
-          <h1 className="pl-5 pt-2">Fairfield Farms</h1>
+          <h1 className="pl-5 pt-2 serif">Fairfield Farms</h1>
         </a>
         <ul className="items-stretch hidden space-x-3 md:flex">
           <li className="flex">
@@ -43,9 +43,9 @@ export default function Header() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="flex items-center px-4 -mb-1 border-b-2 border-transparent"
+              className="flex items-center px-4 -mb-1 border-b-2 border-transparent text-darkblue"
             >
-              Link
+              400-600-5555
             </a>
           </li>
         </ul>
