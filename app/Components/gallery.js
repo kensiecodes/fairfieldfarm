@@ -4,12 +4,14 @@ export default function Gallery() {
       <div class="container px-5 py-24 mx-auto flex flex-wrap">
         <div class="flex w-full mb-20 flex-wrap">
           <h1 class="sm:text-3xl text-2xl font-medium title-font text-gray-900 lg:w-1/3 lg:mb-0 mb-4">
-            Master Cleanse Reliac Heirloom
+            What we offer
           </h1>
           <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">
-            Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical
-            gentrify, subway tile poke farm-to-table. Franzen you probably
-            haven't heard of them man bun deep jianbing selfies heirloom.
+            Our CSA contains all the same produce sold at our farm stand. Each
+            week a large selection of eggs, meat, and produce will be available
+            at our barn and CSA members will be welcome to select according to
+            availability. We will also have recipe cards available to inspire
+            you.
           </p>
         </div>
         <div class="flex flex-wrap md:-m-2 -m-1">
@@ -18,21 +20,21 @@ export default function Gallery() {
               <img
                 alt="gallery"
                 class="w-full object-cover h-full object-center block"
-                src="https://dummyimage.com/500x300"
+                src="/eggs.jpg"
               />
             </div>
             <div class="md:p-2 p-1 w-1/2">
               <img
                 alt="gallery"
                 class="w-full object-cover h-full object-center block"
-                src="https://dummyimage.com/501x301"
+                src="chicken.jpg"
               />
             </div>
             <div class="md:p-2 p-1 w-full">
               <img
                 alt="gallery"
                 class="w-full h-full object-cover object-center block"
-                src="https://dummyimage.com/600x360"
+                src="moreveggies.jpg"
               />
             </div>
           </div>
@@ -41,21 +43,21 @@ export default function Gallery() {
               <img
                 alt="gallery"
                 class="w-full h-full object-cover object-center block"
-                src="https://dummyimage.com/601x361"
+                src="veggies.jpg"
               />
             </div>
             <div class="md:p-2 p-1 w-1/2">
               <img
                 alt="gallery"
                 class="w-full object-cover h-full object-center block"
-                src="https://dummyimage.com/502x302"
+                src="corn.jpg"
               />
             </div>
             <div class="md:p-2 p-1 w-1/2">
               <img
                 alt="gallery"
                 class="w-full object-cover h-full object-center block"
-                src="https://dummyimage.com/503x303"
+                src="tomatoes.jpg"
               />
             </div>
           </div>

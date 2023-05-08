@@ -5,15 +5,14 @@ export default function Pricing() {
         <div className="mb-12 space-y-4 text-center">
           <h1 className="text-4xl font-semibold leading-tight">Pricing</h1>
           <p className="px-4 sm:px-8 lg:px-24">
-            Sunt suscipit eaque qui iure unde labore numquam iusto alias
-            explicabo, pariatur ipsam, cupiditate aliquid modi?
+            Want to try it out? We have weekly, monthly, and yearly flat fees.
           </p>
           <div>
             <button className="px-4 py-1 font-semibold border rounded-l-lg bg-green-600 border-green-600 text-gray-50">
-              Monthly
+              Veggies only
             </button>
-            <button className="px-4 py-1 border rounded-r-lg border-green-600">
-              Annually
+            <button className="px-4 py-1 border rounded-r-lg border-green-600 click:bg-darkblue ">
+              Meat + Dairy
             </button>
           </div>
         </div>
