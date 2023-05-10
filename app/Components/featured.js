@@ -17,7 +17,7 @@ export default function Featured() {
           <li>
             <a href="#" class="relative block group">
               <img
-                src="/cows.jpg"
+                src="/cow.jpg"
                 alt=""
                 class="object-cover w-full transition duration-500 aspect-square group-hover:opacity-90"
               />

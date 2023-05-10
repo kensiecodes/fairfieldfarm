@@ -1,3 +1,11 @@
+const vegWeekly = 40;
+const vegMonthly = 150;
+const vegYearly = 650;
+const meatWeekly = 80;
+const meatMonthly = 300;
+const meatYearly = 1100;
+let selected = "veg";
+
 export default function Pricing() {
   return (
     <section className="py-6 bg-gray-100 text-gray-800">
@@ -7,11 +15,12 @@ export default function Pricing() {
           <p className="px-4 sm:px-8 lg:px-24">
             Want to try it out? We have weekly, monthly, and yearly flat fees.
           </p>
+
           <div>
-            <button className="px-4 py-1 font-semibold border rounded-l-lg bg-green-600 border-green-600 text-gray-50">
+            <button className="px-4 py-1 font-semibold border rounded-l-lg bg-darkblue border-babyblue text-gray-50">
               Veggies only
             </button>
-            <button className="px-4 py-1 border rounded-r-lg border-green-600 click:bg-darkblue ">
+            <button className="px-4 py-1 border rounded-r-lg border-babyblue click:bg-darkblue ">
               Meat + Dairy
             </button>
           </div>
@@ -19,10 +28,10 @@ export default function Pricing() {
         <div className="grid max-w-md grid-cols-1 gap-6 mx-auto auto-rows-fr lg:grid-cols-3 lg:max-w-full">
           <div className="flex flex-col overflow-hidden border-2 rounded-md border-gray-300">
             <div className="flex flex-col items-center justify-center px-2 py-8 space-y-4 bg-gray-100">
-              <p className="text-lg font-medium">Personal</p>
+              <p className="text-lg font-medium">Weekly</p>
               <p className="text-5xl font-bold">
-                0€
-                <span className="text-xl text-gray-600"> /mo</span>
+                {selected == "veg" ? "$" + vegWeekly : "$" + { meatWeekly }}
+                <span className="text-xl text-gray-600"> /week</span>
               </p>
             </div>
             <div className="flex flex-col items-center justify-center px-2 py-8 bg-gray-50">
@@ -33,7 +42,7 @@ export default function Pricing() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    className="w-6 h-6 text-green-600"
+                    className="w-6 h-6 text-babyblue"
                   >
                     <path
                       strokeLinecap="round"
@@ -50,7 +59,7 @@ export default function Pricing() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    className="w-6 h-6 text-green-600"
+                    className="w-6 h-6 text-babyblue"
                   >
                     <path
                       strokeLinecap="round"
@@ -67,7 +76,7 @@ export default function Pricing() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    className="w-6 h-6 text-green-600"
+                    className="w-6 h-6 text-babyblue"
                   >
                     <path
                       strokeLinecap="round"
@@ -79,17 +88,17 @@ export default function Pricing() {
                   <span>Lumet consectetur adipisicing</span>
                 </li>
               </ul>
-              <button className="px-8 py-3 mt-6 text-lg font-semibold rounded sm:mt-12 bg-green-600 text-gray-50">
-                Sign up
+              <button className="px-8 py-3 mt-6 text-lg font-semibold rounded sm:mt-12 bg-darkblue text-gray-50">
+                Check Availability
               </button>
             </div>
           </div>
-          <div className="flex flex-col overflow-hidden border-2 rounded-md border-green-600">
+          <div className="flex flex-col overflow-hidden border-2 rounded-md border-darkblue">
             <div className="flex flex-col items-center justify-center px-2 py-8 space-y-4 bg-gray-100">
-              <p className="text-lg font-medium">Professional</p>
+              <p className="text-lg font-medium">Yearly</p>
               <p className="text-5xl font-bold">
-                8€
-                <span className="text-xl text-gray-600"> /mo</span>
+                {selected == "veg" ? "$" + vegYearly : "$" + { meatYearly }}
+                <span className="text-xl text-gray-600"> /yr</span>
               </p>
             </div>
             <div className="flex flex-col items-center justify-center px-2 py-8 bg-gray-50">
@@ -100,7 +109,7 @@ export default function Pricing() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    className="w-6 h-6 text-green-600"
+                    className="w-6 h-6 text-babyblue"
                   >
                     <path
                       strokeLinecap="round"
@@ -117,7 +126,7 @@ export default function Pricing() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    className="w-6 h-6 text-green-600"
+                    className="w-6 h-6 text-babyblue"
                   >
                     <path
                       strokeLinecap="round"
@@ -134,7 +143,7 @@ export default function Pricing() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    className="w-6 h-6 text-green-600"
+                    className="w-6 h-6 text-babyblue"
                   >
                     <path
                       strokeLinecap="round"
@@ -146,16 +155,16 @@ export default function Pricing() {
                   <span>Lumet consectetur adipisicing</span>
                 </li>
               </ul>
-              <button className="px-8 py-3 mt-6 text-lg font-semibold rounded sm:mt-12 bg-green-600 text-gray-50">
+              <button className="px-8 py-3 mt-6 text-lg font-semibold rounded sm:mt-12 bg-darkblue text-gray-50">
                 Sign up
               </button>
             </div>
           </div>
           <div className="flex flex-col overflow-hidden border-2 rounded-md border-gray-300">
             <div className="flex flex-col items-center justify-center px-2 py-8 space-y-4 bg-gray-100">
-              <p className="text-lg font-medium">Enterprise</p>
+              <p className="text-lg font-medium">Monthly</p>
               <p className="text-5xl font-bold">
-                19€
+                {selected == "veg" ? "$" + vegMonthly : "$" + { meatMonthly }}
                 <span className="text-xl text-gray-600"> /mo</span>
               </p>
             </div>
@@ -167,7 +176,7 @@ export default function Pricing() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    className="w-6 h-6 text-green-600"
+                    className="w-6 h-6 text-babyblue"
                   >
                     <path
                       strokeLinecap="round"
@@ -184,7 +193,7 @@ export default function Pricing() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    className="w-6 h-6 text-green-600"
+                    className="w-6 h-6 text-babyblue"
                   >
                     <path
                       strokeLinecap="round"
@@ -201,7 +210,7 @@ export default function Pricing() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    className="w-6 h-6 text-green-600"
+                    className="w-6 h-6 text-babyblue"
                   >
                     <path
                       strokeLinecap="round"
@@ -213,7 +222,7 @@ export default function Pricing() {
                   <span>Lumet consectetur adipisicing</span>
                 </li>
               </ul>
-              <button className="px-8 py-3 mt-6 text-lg font-semibold rounded sm:mt-12 bg-green-600 text-gray-50">
+              <button className="px-8 py-3 mt-6 text-lg font-semibold rounded sm:mt-12 bg-darkblue text-gray-50">
                 Sign up
               </button>
             </div>

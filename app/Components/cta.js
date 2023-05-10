@@ -27,7 +27,7 @@ export default function CTA() {
           <div class="grid grid-cols-2 gap-4 md:grid-cols-1 lg:grid-cols-2">
             <img
               alt="veggies"
-              src="/veggies.jpg"
+              src="/moreveggies.jpg"
               class="h-40 w-full object-cover sm:h-56 md:h-full"
             />
 

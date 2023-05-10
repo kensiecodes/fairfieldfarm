@@ -13,16 +13,17 @@ export default function Csa() {
             Sign up now
           </h1>
           <p className="text-xl font-medium text-center">
-            At a assumenda quas cum earum ut itaque commodi saepe rem aspernatur
-            quam natus quis nihil quod, hic explicabo doloribus magnam neque,
-            exercitationem eius sunt!
+            Are you sold? Get in touch with us for weekly and monthly pass
+            availability. We sell yearly memberships starting at the end of
+            every year, about the last week of November til the beginning of
+            March.
           </p>
           <div className="flex flex-col space-y-4 sm:space-y-0 sm:flex-row sm:space-x-8">
-            <button className="px-8 py-3 text-lg font-semibold rounded bg-green-600 text-gray-50">
-              Get started
+            <button className="px-8 py-3 text-lg font-semibold rounded bg-darkblue text-gray-50">
+              Get in Touch
             </button>
             <button className="px-8 py-3 text-lg font-normal border rounded bg-gray-800 text-gray-50 border-gray-700">
-              Learn more
+              Waitlist
             </button>
           </div>
         </div>
