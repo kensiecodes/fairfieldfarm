@@ -1,12 +1,19 @@
-const vegWeekly = 40;
-const vegMonthly = 150;
-const vegYearly = 650;
-const meatWeekly = 80;
-const meatMonthly = 300;
-const meatYearly = 1100;
-let selected = "veg";
-
 export default function Pricing() {
+  const vegWeekly = 40;
+  const vegMonthly = 150;
+  const vegYearly = 650;
+  const meatWeekly = 80;
+  const meatMonthly = 300;
+  const meatYearly = 1100;
+  let selected = "veg";
+  function toMeat() {
+    selected = "meat";
+    console.log(selected);
+  }
+  function toVeggies() {
+    selected = "veg";
+    console.log(selected);
+  }
   return (
     <section className="py-6 bg-gray-100 text-gray-800">
       <div className="container p-4 mx-auto sm:p-10">
@@ -17,10 +24,16 @@ export default function Pricing() {
           </p>
 
           <div>
-            <button className="px-4 py-1 font-semibold border rounded-l-lg bg-darkblue border-babyblue text-gray-50">
+            <button
+              onClick={toVeggies}
+              className="px-4 py-1 font-semibold border rounded-l-lg bg-darkblue border-babyblue text-gray-50"
+            >
               Veggies only
             </button>
-            <button className="px-4 py-1 border rounded-r-lg border-babyblue click:bg-darkblue ">
+            <button
+              onClick={toMeat}
+              className="px-4 py-1 border rounded-r-lg border-babyblue click:bg-darkblue "
+            >
               Meat + Dairy
             </button>
           </div>
