@@ -3,7 +3,7 @@ export default function Featured() {
     <section>
       <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8">
         <header className="text-center">
-          <h2 className="text-xl font-bold text-gray-900 sm:text-3xl">
+          <h2 className="text-xl font-bold text-burntorange sm:text-3xl">
             What's in season
           </h2>
 
@@ -22,8 +22,10 @@ export default function Featured() {
                 className="object-cover w-full transition duration-500 aspect-square group-hover:opacity-90"
               />
 
-              <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
-                <h3 className="text-xl font-medium text-white">Fresh Dairy</h3>
+              <div className=" absolute inset-0 flex flex-col items-start justify-end p-6">
+                <h3 className="bg-darkblue p-2 bg-opacity-50 text-xl font-medium text-white">
+                  Fresh Dairy
+                </h3>
 
                 <span className="mt-1.5 inline-block bg-darkblue px-5 py-3 text-xs font-medium uppercase tracking-wide text-white">
                   Call
@@ -41,7 +43,7 @@ export default function Featured() {
               />
 
               <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
-                <h3 className="text-xl font-medium text-white">
+                <h3 className=" bg-darkblue p-2 bg-opacity-50 text-xl font-medium text-white">
                   Beeswax Salve
                 </h3>
 
@@ -61,7 +63,7 @@ export default function Featured() {
               />
 
               <div className="absolute inset-0 flex flex-col items-start justify-end p-6">
-                <h3 className="text-xl font-medium text-white">
+                <h3 className=" bg-darkblue p-2 bg-opacity-50 text-xl font-medium text-white">
                   Frost-Hardy Veggies
                 </h3>
 

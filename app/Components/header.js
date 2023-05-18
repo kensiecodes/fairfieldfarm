@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <nav className="p-4 bg-gray-100 text-gray-800">
+    <nav className="bg-sand p-4  text-gray-800">
       <div className="container flex justify-between h-16 mx-auto">
         <a
           rel="noopener noreferrer"
@@ -9,7 +9,7 @@ export default function Header() {
           className="flex items-center p-2"
         >
           <img src="/iconsmall.png" />
-          <h1 className="pl-5 pt-2 serif">Fairfield Farms</h1>
+          <h1 className="pl-5 pt-2 serif text-3xl">Fairfield Farms</h1>
         </a>
         <ul className="items-stretch hidden space-x-3 md:flex">
           <li className="flex">
@@ -43,7 +43,7 @@ export default function Header() {
             <a
               rel="noopener noreferrer"
               href="#"
-              className="flex items-center px-4 -mb-1 border-b-2 border-transparent text-darkblue"
+              className="click:italic transition duration-150 ease-in-out flex items-center px-4 -mb-1 border-b-2 border-transparent text-twilight"
             >
               400-600-5555
             </a>

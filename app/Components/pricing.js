@@ -24,16 +24,10 @@ export default function Pricing() {
           </p>
 
           <div>
-            <button
-              onClick={toVeggies}
-              className="px-4 py-1 font-semibold border rounded-l-lg bg-darkblue border-babyblue text-gray-50"
-            >
+            <button className="px-4 py-1 font-semibold border rounded-l-lg bg-darkblue border-babyblue text-gray-50">
               Veggies only
             </button>
-            <button
-              onClick={toMeat}
-              className="px-4 py-1 border rounded-r-lg border-babyblue click:bg-darkblue "
-            >
+            <button className="px-4 py-1 border rounded-r-lg border-babyblue click:bg-darkblue ">
               Meat + Dairy
             </button>
           </div>

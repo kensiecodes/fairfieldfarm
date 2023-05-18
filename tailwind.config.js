@@ -10,8 +10,12 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        babyblue: "#98ccfd",
-        darkblue: "#4787c7",
+        babyblue: "#a4c9c8",
+        darkblue: "#08848e",
+        sand: "#d9824f",
+        burntorange: "#c76c18",
+        terracotta: "#94483b",
+        twilight: "#745a5d",
       },
       fontFamily: {
         sans: ['"Source Sans Pro"', ...defaultTheme.fontFamily.sans],
