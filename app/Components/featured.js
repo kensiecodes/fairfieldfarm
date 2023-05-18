@@ -3,7 +3,7 @@ export default function Featured() {
     <section>
       <div className="max-w-screen-xl px-4 py-8 mx-auto sm:px-6 sm:py-12 lg:px-8">
         <header className="text-center">
-          <h2 className="text-xl font-bold text-burntorange sm:text-3xl">
+          <h2 className="text-xl font-bold text-twilight sm:text-3xl">
             What's in season
           </h2>
 

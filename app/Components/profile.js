@@ -22,7 +22,7 @@ export default function Profile() {
                 <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">
                   Seraphine Smith
                 </h2>
-                <div className="w-12 h-1 bg-burntorange rounded mt-2 mb-4"></div>
+                <div className="w-12 h-1 bg-twilight rounded mt-2 mb-4"></div>
                 <p className="text-base">
                   An environmental scientist and community leader. Loves
                   chickens and bicycling, but not necessarily together.
@@ -66,7 +66,7 @@ export default function Profile() {
                 <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">
                   Faith George
                 </h2>
-                <div className="w-12 h-1 bg-burntorange rounded mt-2 mb-4"></div>
+                <div className="w-12 h-1 bg-twilight rounded mt-2 mb-4"></div>
                 <p className="text-base">
                   Current farmer and professor at SVCC. Enjoys teaching kids
                   about nature, watching plants grow, and gaming.
@@ -111,7 +111,7 @@ export default function Profile() {
                 <h2 className="font-medium title-font mt-4 text-gray-900 text-lg">
                   Josh Smith
                 </h2>
-                <div className="w-12 h-1 bg-burntorange rounded mt-2 mb-4"></div>
+                <div className="w-12 h-1 bg-twilight rounded mt-2 mb-4"></div>
                 <p className="text-base">
                   Our resident heirloom specialist. This guy knows too much
                   about tomatoes. Seriously.

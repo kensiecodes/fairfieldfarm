@@ -16,7 +16,7 @@ export default function CTA() {
               <div className="mt-4 md:mt-8">
                 <a
                   href="/csa"
-                  className="inline-block rounded border border-white bg-white px-12 py-3 text-sm font-medium text-blue-500 transition hover:bg-transparent hover:text-white focus:outline-none focus:ring focus:ring-babyblue"
+                  className="inline-block rounded border border-white bg-white px-12 py-3 text-sm font-medium text-twilight transition hover:bg-transparent hover:text-white focus:outline-none focus:ring focus:ring-babyblue"
                 >
                   Get Started Today
                 </a>

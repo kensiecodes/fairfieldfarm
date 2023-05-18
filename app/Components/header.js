@@ -1,6 +1,6 @@
 export default function Header() {
   return (
-    <nav className="bg-sand p-4  text-gray-800">
+    <nav className="bg-darkblue bg-opacity-30 p-4  text-gray-800">
       <div className="container flex justify-between h-16 mx-auto">
         <a
           rel="noopener noreferrer"
