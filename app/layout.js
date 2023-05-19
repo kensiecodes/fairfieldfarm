@@ -20,6 +20,7 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600&family=Source+Sans+Pro&display=swap"
           rel="stylesheet"
         />
+        <title>Fairfield Farms | Organic Farm</title>
       </head>
       <body>
         <Header />
