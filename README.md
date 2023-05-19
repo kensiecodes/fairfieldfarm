@@ -1,34 +1,31 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Fairfield Farms
 
-## Getting Started
+This is a design mock-up for an organic farm.
 
-First, run the development server:
+## Description
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+The farm is marketing their produce and CSA membership. The tone is friendly and community oriented, target audience would be adults. It features Next.js routing, Tailwind styling, and React component libraries. I made this for an article on my blog, to show how easy it can be to make beautiful static sites.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Help
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Some of the features aren't fully interactive. This is intentional! More could be added to the site if it were for a real client. This is just a mock-up.
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+## Authors
 
-## Learn More
+Mackensie Jack
+ex. [@Mackensie Jack](https://twitter.com/MackensieJack)
 
-To learn more about Next.js, take a look at the following resources:
+## Version History
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- 0.1
+  - Initial Release
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Acknowledgments
 
-## Deploy on Vercel
+Inspiration, code snippets, etc.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Unsplash stock photos](https://unsplash.com/)
+- [TailwindCSS](https://tailwindcss.com/)
+- [Tailblocks library](https://tailblocks.cc/)
+- [MambaUI library](https://gist.github.com/zenorocha/4526327)
+- [HyperUI library](https://www.hyperui.dev/)
