@@ -1,18 +1,21 @@
+"use client";
+
+import { useState } from "react";
+
 export default function Pricing() {
+  const [selected, setSelected] = useState("meat");
   const vegWeekly = 40;
   const vegMonthly = 150;
   const vegYearly = 650;
   const meatWeekly = 80;
   const meatMonthly = 300;
   const meatYearly = 1100;
-  let selected = "veg";
+
   function toMeat() {
-    selected = "meat";
-    console.log(selected);
+    setSelected("meat");
   }
   function toVeggies() {
-    selected = "veg";
-    console.log(selected);
+    setSelected("veg");
   }
   return (
     <section className="py-6 bg-gray-100 text-gray-800">
@@ -24,10 +27,16 @@ export default function Pricing() {
           </p>
 
           <div>
-            <button className="px-4 py-1 font-semibold border rounded-l-lg bg-darkblue border-babyblue text-gray-50">
+            <button
+              onClick={toVeggies}
+              className="px-4 py-1 font-semibold rounded-l-lg "
+            >
               Veggies only
             </button>
-            <button className="px-4 py-1 border rounded-r-lg border-babyblue click:bg-darkblue ">
+            <button
+              onClick={toMeat}
+              className="px-4 py-1 border rounded-r-lg border-babyblue click:bg-darkblue "
+            >
               Meat + Dairy
             </button>
           </div>
@@ -37,7 +46,7 @@ export default function Pricing() {
             <div className="flex flex-col items-center justify-center px-2 py-8 space-y-4 bg-gray-100">
               <p className="text-lg font-medium">Weekly</p>
               <p className="text-5xl font-bold">
-                {selected == "veg" ? "$" + vegWeekly : "$" + { meatWeekly }}
+                {selected == "veg" ? "$" + vegWeekly : "$" + meatWeekly}
                 <span className="text-xl text-gray-600"> /week</span>
               </p>
             </div>
@@ -104,7 +113,7 @@ export default function Pricing() {
             <div className="flex flex-col items-center justify-center px-2 py-8 space-y-4 bg-gray-100">
               <p className="text-lg font-medium">Yearly</p>
               <p className="text-5xl font-bold">
-                {selected == "veg" ? "$" + vegYearly : "$" + { meatYearly }}
+                {selected == "veg" ? "$" + vegYearly : "$" + meatYearly}
                 <span className="text-xl text-gray-600"> /yr</span>
               </p>
             </div>
@@ -171,7 +180,7 @@ export default function Pricing() {
             <div className="flex flex-col items-center justify-center px-2 py-8 space-y-4 bg-gray-100">
               <p className="text-lg font-medium">Monthly</p>
               <p className="text-5xl font-bold">
-                {selected == "veg" ? "$" + vegMonthly : "$" + { meatMonthly }}
+                {selected == "veg" ? "$" + vegMonthly : "$" + meatMonthly}
                 <span className="text-xl text-gray-600"> /mo</span>
               </p>
             </div>
